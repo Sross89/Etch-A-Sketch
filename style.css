@@ -1,0 +1,29 @@
+#grid{
+    display: grid;
+}
+
+.outer-box{
+    background-color: blanchedalmond;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 2px;
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+.inner-box{
+    display: flexbox;
+    justify-content: center; 
+    padding: 50px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-emphasis: bold;
+}
